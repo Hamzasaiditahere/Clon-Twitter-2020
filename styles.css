@@ -33,7 +33,7 @@ button:hover{
 }
 .menu{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     margin-right: 70px;
 }
@@ -45,7 +45,10 @@ button:hover{
     margin-right: 100px;
     border-left: rgba(75, 75, 75, 0.11) 1px solid;
     padding-left: 20px;
+    border-bottom: rgba(75, 75, 75, 0.11) 1px solid;
 }
 .content{
-    border-top: rgba(75, 75, 75, 0.11) 1px solid;
+    display: flex;
+    padding: 20px;
+    border-left: rgba(75, 75, 75, 0.11) 1px solid;
 }
