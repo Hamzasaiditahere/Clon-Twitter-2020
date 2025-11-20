@@ -37,10 +37,15 @@ button:hover{
     align-items: center;
     margin-right: 70px;
 }
-.content{
+.header{
     display: flex;
     align-items: start;
     justify-content: space-between;
     width: 100%;
     margin-right: 100px;
+    border-left: rgba(75, 75, 75, 0.11) 1px solid;
+    padding-left: 20px;
+}
+.content{
+    border-top: rgba(75, 75, 75, 0.11) 1px solid;
 }
